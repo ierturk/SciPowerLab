@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY aa56872301fb85094853b091565334e24 SYSTEM "file:///C:/works/projects/StarGate/SciPowerLab/help/en_US/xcpl_BLDC.xml">
+<!ENTITY a295d62640356fe487e5a042af14685e5 SYSTEM "file:///C:/works/projects/StarGate/SciPowerLab/help/en_US/xcpl_BLSC.xml">
+<!ENTITY a4133abf324890a739435bc90eeb51e99 SYSTEM "file:///C:/works/projects/StarGate/SciPowerLab/help/en_US/xcpl_IMPU.xml">
+<!ENTITY ad8ab509a10b0abd5413909b680ed89f4 SYSTEM "file:///C:/works/projects/StarGate/SciPowerLab/help/en_US/xcpl_PMSC.xml">
+<!ENTITY a1ed55faffd5d1de287074cd7421e142b SYSTEM "file:///C:/works/projects/StarGate/SciPowerLab/help/en_US/xcpl_PMSM.xml">
+<!ENTITY a16f09849d56a80afb73d24fe7a64fd70 SYSTEM "file:///C:/works/projects/StarGate/SciPowerLab/help/en_US/xcpl_PSDINV.xml">
+<!ENTITY abbf7d2de1cae2ec4bd2f3b2ff3b5a6d3 SYSTEM "file:///C:/works/projects/StarGate/SciPowerLab/help/en_US/xcpl_SVPWM.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='stargate_-_xcos_module_for_electrical_machines_and_power_electronics_manual'>
+    <title>StarGate - Xcos Module for Electrical Machines and Power Electronics</title>
+  </info>
+
+<part xml:id='section_80c53f31452df38bf2dbaf2d47ae5322'>
+<title>StarGate - Xcos Module for Electrical Machines and Power Electronics</title>
+&aa56872301fb85094853b091565334e24;
+&a295d62640356fe487e5a042af14685e5;
+&a4133abf324890a739435bc90eeb51e99;
+&ad8ab509a10b0abd5413909b680ed89f4;
+&a1ed55faffd5d1de287074cd7421e142b;
+&a16f09849d56a80afb73d24fe7a64fd70;
+&abbf7d2de1cae2ec4bd2f3b2ff3b5a6d3;
+</part>
+</book>
