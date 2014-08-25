@@ -1,0 +1,5 @@
+Licence of SciPowerLab / StarGate Inc - Power Electronics and Electrical Machines
+
+// StarGate-TR - Copyright 2014
+// http://www.stargate-tr.com
+// ierturk@ieee.org

@@ -1,0 +1,31 @@
+Toolbox: SciPowerLab
+
+Title: StarGate Inc - Power Electronics and Electrical Machines
+
+Summary: Xcos toolbox for Electrical Machines and Power Electronics
+
+Version: 0.2
+
+Author: Ibrahim ERTURK <ierturk@ieee.org.com>
+
+Maintainer: Ibrahim ERTURK <ierturk@ieee.org.com>
+
+Category: Xcos
+
+Entity: StarGate Inc
+
+WebSite: http://www.stargate-tr.com
+
+License: CeCIIL
+
+ScilabVersion: >= 5.4
+
+Depends: N/A 
+
+Date: 2014-08-25
+
+Description: Xcos toolbox for Electrical Machines and Power Electronics
+ 
+ exec builder.sce
+ exec loader.sce
+

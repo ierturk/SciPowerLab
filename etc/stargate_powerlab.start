@@ -1,0 +1,98 @@
+// StarGate-TR - Copyright 2014
+// http://www.stargate-tr.com
+// ierturk@ieee.org
+
+function [..
+			LibMachinePal,..
+			LibControlPal..
+			] = startModule()
+
+	etc_tlbx  = get_absolute_file_path('stargate_powerlab.start');
+	etc_tlbx  = getshortpathname(etc_tlbx);
+	root_tlbx = strncpy( etc_tlbx, length(etc_tlbx)-length("\etc\") );
+
+	mprintf("Start StarGate - Xcos Module for Electrical Machines and Power Electronics\n");
+
+	if isdef("LibMachinePal") then
+		warning("Start StarGate - Xcos Module for Electrical Machines and Power Electronics is already loaded");
+		return;
+	end
+
+	// Check Scilab's version
+	try
+		v = getversion('scilab');
+	catch
+		error(gettext('Scilab 5.4 or more is required.'));
+	end
+
+	if or(v(1:2) < [5 4]) then
+		// new API in scilab 5.4
+		error(gettext('Scilab 5.4 or more is required.'));
+	end
+
+	// Load standard libs
+	loadXcosLibs(); loadScicos();
+
+	// Load functions library
+	mprintf('\tLoad macros\n');
+
+	mprintf('\t\tMachine Library\n');
+	LibMachinePal = lib(pathconvert(root_tlbx..
+										+ filesep()..
+										+ 'macros'..
+										+ filesep()..
+										+ 'MachinePal'..
+										+ filesep()));
+
+	mprintf('\t\tControl Library\n');
+	LibControlPal = lib(pathconvert(root_tlbx..
+										+ filesep()..
+										+ 'macros'..
+										+ filesep()..
+										+ 'ControlPal'..
+										+ filesep()));
+
+	// Add blocks to the Xcos palettes
+	mprintf('\tLoad Palettes\n');
+
+	mprintf('\t\tElectrical Machines Palette\n');
+	exec(root_tlbx + '/macros/MachinePal/load_palette.sce');
+
+	mprintf('\t\tController Palette\n');
+	exec(root_tlbx + '/macros/ControlPal/load_palette.sce');
+
+	// Load gateway functions
+	ilib_level = ilib_verbose()
+	ilib_verbose(0)
+	
+	// Load simulation functions
+	mprintf('\tLoad simulations functions\n');
+	exec(pathconvert(root_tlbx + "/src/c/loader.sce", %f));
+
+	ilib_verbose(ilib_level)
+
+	// Load and add help chapter
+	// =============================================================================
+	if or(getscilabmode() == ["NW";"STD"]) then
+		mprintf("\tLoad help\n");
+		path_addchapter = pathconvert(root_tlbx+"/jar");
+		if ( isdir(path_addchapter) <> [] ) then
+			add_help_chapter("StarGate - Xcos Module for Electrical Machines and Power Electronics",..
+								path_addchapter, %F);
+		end
+	end
+
+	// Load demos
+	// =============================================================================
+	if or(getscilabmode() == ["NW";"STD"]) then
+		mprintf("\tLoad demos\n");
+		pathdemos = pathconvert(root_tlbx+"/demos/powerlab.dem.gateway.sce", %F, %T);
+		add_demo("StarGate - Xcos Module for Electrical Machines and Power Electronics", pathdemos);
+	end
+    
+endfunction
+//=============================================================================
+[ LibMachinePal, LibControlPal] = startModule();
+//=============================================================================
+clear startModule;
+//=============================================================================

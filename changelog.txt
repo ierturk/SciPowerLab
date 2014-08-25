@@ -1,0 +1,15 @@
+changelog of the SciPowerLab Toolbox
+StarGate Inc - Power Electronics and Electrical Machines
+
+SciPowerLab (0.2)
+    * Update blocks to comply Scilab API
+    * Block Title is changed as SciPowerLab
+ -- Ibrahim ERTURK <ierturk@ieee.org> Mon, 25 Aug 2014
+
+XCPL (0.1)
+    * Repacked for ATOMS Module
+ -- Ibrahim ERTURK <ierturk@ieee.org> Fri, 02 Mar 2012
+
+XCPL_toolbox (0.0)
+    * Initial Release
+ -- Ibrahim ERTURK <ierturk@stargate-tr.com> Wed, 01 Jun 2011
