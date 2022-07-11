@@ -1,7 +1,9 @@
-// StarGate-TR - Copyright 2011
-// http://www.stargate-tr.com
-// ierturk@stargate-tr.com
+// ErturkMe - Copyright 2011 - 2022
+// http://erturk.me
+// ierturk@ieee.org
+// See license.txt
 
+#include "api_scilab.h"
 #include "scicos_block4.h"
 
 #define U			((SCSREAL_COP *)GetRealInPortPtrs(blk, 1))
@@ -49,7 +51,7 @@ void xcpl_IMPU(scicos_block *blk, int flag)
 	switch (flag)
 	{
 		case Initialization:
-				GetWorkPtrs(blk) = (double *)scicos_malloc(sizeof(double)*26);
+				GetWorkPtrs(blk) = (double *)MALLOC(sizeof(double)*26);
 				
 				W[0] = -1./Ts2; W[1] = 0; W[2] = xm/xsig/xr/Tr; W[3] = xm/xsig/xr*Wb;
 				W[4] = 0; W[5] = -1./Ts2; W[6] = -xm/xsig/xr*Wb; W[7] = xm/xsig/xr/Tr;
@@ -66,7 +68,7 @@ void xcpl_IMPU(scicos_block *blk, int flag)
 				break;
 
 		case Ending:
-				scicos_free(GetWorkPtrs(blk));
+				FREE(GetWorkPtrs(blk));
 				break;
 
 		case DerivativeState:

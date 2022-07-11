@@ -1,6 +1,7 @@
-// StarGate Inc - Copyright 2014
-// http://www.stargate-tr.com
+// ErturkMe - Copyright 2011 - 2022
+// http://erturk.me
 // ierturk@ieee.org
+// See license.txt
 
 // This macro compiles the files
 

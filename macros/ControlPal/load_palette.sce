@@ -1,7 +1,12 @@
+// ErturkMe - Copyright 2011 - 2022
+// http://erturk.me
+// ierturk@ieee.org
+// See license.txt
+
 function LoadPalette()
 
 	if exists("scicos_diagram", 'a') == 0 then loadXcosLibs(); end
-	pal = xcosPal('StarGate - Palette for Controller');
+	pal = xcosPal('ErturkMe - Palette for Controller');
 
 	Pal_Dir = get_absolute_file_path('load_palette.sce');
 
@@ -132,7 +137,7 @@ function LoadPalette()
 
 	if ~xcosPalAdd(pal) then
 		error(msprintf(gettext("%s: Unable to export %s.\n"),..
-								"StarGate - Xcos Module for Electrical Machines", "pal"));
+								"ErturkMe - Xcos Module for Electrical Machines", "pal"));
 	end
 endfunction
 

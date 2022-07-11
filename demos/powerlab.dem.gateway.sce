@@ -1,6 +1,7 @@
-// StarGate-TR - Copyright 2011
-// http://www.stargate-tr.com
-// ierturk@stargate-tr.com
+// ErturkMe - Copyright 2011 - 2022
+// http://erturk.me
+// ierturk@ieee.org
+// See license.txt
 
 function subdemolist = demo_gateway()
 

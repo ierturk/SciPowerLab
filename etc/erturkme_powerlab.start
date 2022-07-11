@@ -1,20 +1,21 @@
-// StarGate-TR - Copyright 2014
-// http://www.stargate-tr.com
+// ErturkMe - Copyright 2011 - 2022
+// http://erturk.me
 // ierturk@ieee.org
+// See license.txt
 
 function [..
 			LibMachinePal,..
 			LibControlPal..
 			] = startModule()
 
-	etc_tlbx  = get_absolute_file_path('stargate_powerlab.start');
+	etc_tlbx  = get_absolute_file_path('erturkme_powerlab.start');
 	etc_tlbx  = getshortpathname(etc_tlbx);
 	root_tlbx = strncpy( etc_tlbx, length(etc_tlbx)-length("\etc\") );
 
-	mprintf("Start StarGate - Xcos Module for Electrical Machines and Power Electronics\n");
+	mprintf("Start ErturkMe - Xcos Module for Electrical Machines and Power Electronics\n");
 
 	if isdef("LibMachinePal") then
-		warning("Start StarGate - Xcos Module for Electrical Machines and Power Electronics is already loaded");
+		warning("Start ErturkMe - Xcos Module for Electrical Machines and Power Electronics is already loaded");
 		return;
 	end
 
@@ -27,7 +28,7 @@ function [..
 
 	if or(v(1:2) < [5 4]) then
 		// new API in scilab 5.4
-		error(gettext('Scilab 5.4 or more is required.'));
+		// error(gettext('Scilab 5.4 or more is required.'));
 	end
 
 	// Load standard libs
@@ -77,7 +78,7 @@ function [..
 		mprintf("\tLoad help\n");
 		path_addchapter = pathconvert(root_tlbx+"/jar");
 		if ( isdir(path_addchapter) <> [] ) then
-			add_help_chapter("StarGate - Xcos Module for Electrical Machines and Power Electronics",..
+			add_help_chapter("ErturkMe - Xcos Module for Electrical Machines and Power Electronics",..
 								path_addchapter, %F);
 		end
 	end
@@ -87,7 +88,7 @@ function [..
 	if or(getscilabmode() == ["NW";"STD"]) then
 		mprintf("\tLoad demos\n");
 		pathdemos = pathconvert(root_tlbx+"/demos/powerlab.dem.gateway.sce", %F, %T);
-		add_demo("StarGate - Xcos Module for Electrical Machines and Power Electronics", pathdemos);
+		add_demo("ErturkMe - Xcos Module for Electrical Machines and Power Electronics", pathdemos);
 	end
     
 endfunction

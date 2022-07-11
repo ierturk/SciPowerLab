@@ -1,3 +1,8 @@
+// ErturkMe - Copyright 2011 - 2022
+// http://erturk.me
+// ierturk@ieee.org
+// See license.txt
+
 function buildmacros()
 	curdir = get_absolute_file_path("buildmacros.sce");
 

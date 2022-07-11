@@ -1,5 +1,14 @@
+ErturkMe - Copyright 2011 - 2022
+http://erturk.me
+ierturk@ieee.org
+See license.txt
+
 changelog of the SciPowerLab Toolbox
-StarGate Inc - Power Electronics and Electrical Machines
+ErturkMe - Power Electronics and Electrical Machines
+
+SciPowerLab (0.3)
+    * Update blocks to comply Scilab 6 API
+ -- Ibrahim ERTURK <ierturk@ieee.org> Mon, 12 Jul 2022
 
 SciPowerLab (0.2)
     * Update blocks to comply Scilab API
@@ -12,4 +21,4 @@ XCPL (0.1)
 
 XCPL_toolbox (0.0)
     * Initial Release
- -- Ibrahim ERTURK <ierturk@stargate-tr.com> Wed, 01 Jun 2011
+ -- Ibrahim ERTURK <ierturk@ieee.org> Wed, 01 Jun 2011

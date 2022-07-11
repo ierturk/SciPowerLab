@@ -1,10 +1,15 @@
+ErturkMe - Copyright 2011 - 2022
+http://erturk.me
+ierturk@ieee.org
+See license.txt
+
 Toolbox: SciPowerLab
 
-Title: StarGate Inc - Power Electronics and Electrical Machines
+Title: ErturkMe - Power Electronics and Electrical Machines
 
 Summary: Xcos toolbox for Electrical Machines and Power Electronics
 
-Version: 0.2
+Version: 0.3
 
 Author: Ibrahim ERTURK <ierturk@ieee.org>
 
@@ -12,17 +17,17 @@ Maintainer: Ibrahim ERTURK <ierturk@ieee.org>
 
 Category: Xcos
 
-Entity: StarGate Inc
+Entity: ErturkMe
 
-WebSite: http://www.stargate-tr.com
+WebSite: http://erturk.me
 
-License: CeCIIL
+License: MIT
 
 ScilabVersion: >= 5.4
 
 Depends: N/A 
 
-Date: 2014-08-25
+Date: 2011-07-12
 
 Description: Xcos toolbox for Electrical Machines and Power Electronics
  

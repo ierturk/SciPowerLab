@@ -1,11 +1,12 @@
-StarGate-TR - Copyright 2014
-WEB    : http://www.stargate-tr.com
-EMAIL  : ierturk@ieee.org
+ErturkMe - Copyright 2011 - 2022
+http://erturk.me
+ierturk@ieee.org
+See license.txt
 
 SciPowerLab Toolbox
-StarGate Inc - Power Electronics and Electrical Machines
+ErturkMe - Power Electronics and Electrical Machines
 
-XCPL (0.2) - Update for New Scilab API for Xcos block
+XCPL (0.3) - Update for New Scilab 6 API for Xcos block
 
 
 Usage

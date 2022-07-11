@@ -1,7 +1,9 @@
-// StarGate-TR - Copyright 2011
-// http://www.stargate-tr.com
-// ierturk@stargate-tr.com
+// ErturkMe - Copyright 2011 - 2022
+// http://erturk.me
+// ierturk@ieee.org
+// See license.txt
 
+#include "api_scilab.h"
 #include "scicos_block4.h"
 
 #define U			((SCSREAL_COP *)GetRealInPortPtrs(blk, 1))
@@ -32,12 +34,12 @@ void xcpl_PMSM(scicos_block *blk, int flag)
 	switch (flag)
 	{
 		case Initialization:
-			GetWorkPtrs(blk) = (double *)scicos_malloc(sizeof(double)*4);
+			GetWorkPtrs(blk) = (double *)MALLOC(sizeof(double)*4);
 			W[0] = 0; W[1] = 0; W[2] = 0; W[3] = 0;
 			break;
 
 		case Ending:
-			scicos_free(GetWorkPtrs(blk));
+			FREE(GetWorkPtrs(blk));
 			break;
         
 		case DerivativeState:
@@ -55,7 +57,7 @@ void xcpl_PMSM(scicos_block *blk, int flag)
 			break;
 
 		case StateUpdate:
-			if (get_phase_simulation() == 1)
+			// if (get_phase_simulation() == 1)
 			{
 				if(J[0] == 1) X[3] -= 2.*pi;
 				else if(J[1] == -1) X[3] += 2.*pi;
