@@ -39,7 +39,7 @@ Scilab Power Electronics ToolBox
 		Space Vector PWM generator
 
 	* xcpl_PSDINV
-		Pseudo Inverter (It is not support three-state switching case)
+		Pseudo Inverter (It does not support three-state switching case)
 
 > **Available Demos**
 
