@@ -1,6 +1,6 @@
 // ErturkMe - Copyright 2014 - 2022
 // http://erturk.me
-// ierturk@ieee.org
+// me@erturk.me
 // See license.txt
 
 mode(-1);

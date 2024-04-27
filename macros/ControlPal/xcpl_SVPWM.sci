@@ -1,6 +1,6 @@
-// ErturkMe - Copyright 2011 - 2022
+// ErturkMe - Copyright 2011 - 2024
 // http://erturk.me
-// ierturk@ieee.org
+// me@erturk.me
 // See license.txt
 
 function [x, y, typ] = xcpl_SVPWM(job, arg1, arg2)

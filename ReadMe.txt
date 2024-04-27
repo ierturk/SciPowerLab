@@ -1,13 +1,10 @@
-ErturkMe - Copyright 2011 - 2022
+ErturkMe - Copyright 2011 - 2024
 http://erturk.me
-ierturk@ieee.org
+me@erturk.me
 See license.txt
 
 SciPowerLab Toolbox
 ErturkMe - Power Electronics and Electrical Machines
-
-XCPL (0.3) - Update for New Scilab 6 API for Xcos block
-
 
 Usage
     - Run builder.sce in root folder

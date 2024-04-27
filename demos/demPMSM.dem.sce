@@ -1,6 +1,6 @@
-// ErturkMe - Copyright 2011 - 2022
+// ErturkMe - Copyright 2011 - 2024
 // http://erturk.me
-// ierturk@ieee.org
+// me@erturk.me
 // See license.txt
 
 thispath = get_absolute_file_path("demPMSM.dem.sce");

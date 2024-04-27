@@ -1,24 +1,28 @@
-ErturkMe - Copyright 2011 - 2022
+ErturkMe - Copyright 2011 - 2024
 http://erturk.me
-ierturk@ieee.org
+me@erturk.me
 See license.txt
 
 changelog of the SciPowerLab Toolbox
 ErturkMe - Power Electronics and Electrical Machines
 
+SciPowerLab (0.4)
+    * Update blocks to comply Scilab 2023 API
+ -- Ibrahim ERTURK <me@erturk.me> Sat, 27 Apr 2024
+
 SciPowerLab (0.3)
     * Update blocks to comply Scilab 6 API
- -- Ibrahim ERTURK <ierturk@ieee.org> Mon, 12 Jul 2022
+ -- Ibrahim ERTURK <me@erturk.me> Mon, 12 Jul 2022
 
 SciPowerLab (0.2)
     * Update blocks to comply Scilab API
     * Block Title is changed as SciPowerLab
- -- Ibrahim ERTURK <ierturk@ieee.org> Mon, 25 Aug 2014
+ -- Ibrahim ERTURK <me@erturk.me> Mon, 25 Aug 2014
 
 XCPL (0.1)
     * Repacked for ATOMS Module
- -- Ibrahim ERTURK <ierturk@ieee.org> Fri, 02 Mar 2012
+ -- Ibrahim ERTURK <me@erturk.me> Fri, 02 Mar 2012
 
 XCPL_toolbox (0.0)
     * Initial Release
- -- Ibrahim ERTURK <ierturk@ieee.org> Wed, 01 Jun 2011
+ -- Ibrahim ERTURK <me@erturk.me> Wed, 01 Jun 2011

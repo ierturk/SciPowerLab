@@ -1,6 +1,6 @@
-// ErturkMe - Copyright 2011 - 2022
+// ErturkMe - Copyright 2011 - 2024
 // http://erturk.me
-// ierturk@ieee.org
+// me@erturk.me
 // See license.txt
 
 // This macro compiles the files
@@ -28,9 +28,6 @@ function builder_c()
     if findmsvccompiler() <> "unknown" & haveacompiler() then
       LDFLAGS = LDFLAGS + " """ + SCI + "/bin/scicos.lib""";
       LDFLAGS = LDFLAGS + " """ + SCI + "/bin/scicos_f.lib""";
-      if win64() then
-          LDFLAGS = LDFLAGS + " ""C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\x64\Kernel32.Lib"""
-      end
     end
   end
   

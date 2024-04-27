@@ -1,6 +1,6 @@
-ErturkMe - Copyright 2011 - 2022
+ErturkMe - Copyright 2011 - 2024
 http://erturk.me
-ierturk@ieee.org
+me@erturk.me
 See license.txt
 
 Toolbox: SciPowerLab
@@ -9,11 +9,11 @@ Title: ErturkMe - Power Electronics and Electrical Machines
 
 Summary: Xcos toolbox for Electrical Machines and Power Electronics
 
-Version: 0.3
+Version: 0.4
 
-Author: Ibrahim ERTURK <ierturk@ieee.org>
+Author: Ibrahim ERTURK <me@erturk.me>
 
-Maintainer: Ibrahim ERTURK <ierturk@ieee.org>
+Maintainer: Ibrahim ERTURK <me@erturk.me>
 
 Category: Xcos
 
@@ -27,7 +27,7 @@ ScilabVersion: >= 5.4
 
 Depends: N/A 
 
-Date: 2011-07-12
+Date: 2024-04-27
 
 Description: Xcos toolbox for Electrical Machines and Power Electronics
  

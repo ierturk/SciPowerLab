@@ -1459,7 +1459,7 @@
           <mxPoint as="targetPoint" x="0.0" y="0.0"/>
         </mxGeometry>
       </ExplicitLink>
-      <TextBlock id="65029c40:1300343f605:-7f0e" parent="0:2:0" interfaceFunctionName="TEXT_f" style="TEXT_f;fontStyle=0;flip=false;mirror=false" value="&lt;pre&gt;ErturkMe - Copyright 2011 - 2022&lt;br&gt;http://erturk.me&lt;br&gt;ierturk@ieee.org&lt;br&gt;See license.txt&lt;/pre&gt;">
+      <TextBlock id="65029c40:1300343f605:-7f0e" parent="0:2:0" interfaceFunctionName="TEXT_f" style="TEXT_f;fontStyle=0;flip=false;mirror=false" value="&lt;pre&gt;ErturkMe - Copyright 2011 - 2024&lt;br&gt;http://erturk.me&lt;br&gt;me@erturk.me&lt;br&gt;See license.txt&lt;/pre&gt;">
         <mxGeometry as="geometry" x="40.0" y="30.0" width="230.0" height="70.0"/>
       </TextBlock>
       <TextBlock id="-8b004b0:181ef73c43d:-7ff8" parent="0:2:0" interfaceFunctionName="TEXT_f" style="TEXT_f" value="W">

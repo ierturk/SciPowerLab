@@ -2,9 +2,9 @@
 
 Scilab Power Electronics ToolBox
 
->**Author** ierturk [ierturk@ieee.org](mailto:ierturk@ieee.org) @ [ErturkMe ](http://erturk.me)  
+>**Author** ierturk [me@erturk.me](mailto:me@erturk.me) @ [ErturkMe ](http://erturk.me)  
 >**Version** 0.3.0  
->**Date** 12-Jul-2022  
+>**Date** 27-Apr-2022  
 >**Brief** Scilab Power Electronics ToolBox
 
 > Module uses Scilab
@@ -12,9 +12,6 @@ Scilab Power Electronics ToolBox
 
 > SciPowerLab Toolbox
 > ErturkMe - Power Electronics and Electrical Machines
-
-> XCPL (0.3) - Update for New Scilab 6 API for Xcos block
-
 
 > **Usage**<br>Run builder.sce in root folder<br>Run loader.sce created by builder macro  
 
@@ -46,5 +43,5 @@ Scilab Power Electronics ToolBox
 	* Field Oriented Controlling Permanent Magnet Synchronous Machine
 
 
-COPYRIGHT 2011-2022 ErturkMe  
+COPYRIGHT 2011-2024 ErturkMe  
 >Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
