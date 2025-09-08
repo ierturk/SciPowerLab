@@ -4,7 +4,7 @@
 // See license.txt
 
 #include "api_scilab.h"
-#include "scicos_block4.h"
+#include "scicos_block.h"
 
 #define U			((SCSREAL_COP *)GetRealInPortPtrs(blk, 1))
 #define Y			((SCSREAL_COP *)GetRealOutPortPtrs(blk, 1))

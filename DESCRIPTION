@@ -9,7 +9,7 @@ Title: ErturkMe - Power Electronics and Electrical Machines
 
 Summary: Xcos toolbox for Electrical Machines and Power Electronics
 
-Version: 0.4
+Version: 0.5
 
 Author: Ibrahim ERTURK <me@erturk.me>
 
@@ -27,7 +27,7 @@ ScilabVersion: >= 5.4
 
 Depends: N/A 
 
-Date: 2024-04-27
+Date: 2024-09-08
 
 Description: Xcos toolbox for Electrical Machines and Power Electronics
  

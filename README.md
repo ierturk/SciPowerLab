@@ -3,8 +3,8 @@
 Scilab Power Electronics ToolBox
 
 >**Author** ierturk [me@erturk.me](mailto:me@erturk.me) @ [ErturkMe ](http://erturk.me)  
->**Version** 0.3.0  
->**Date** 27-Apr-2022  
+>**Version** 0.5.0  
+>**Date** 08-Sep-2024  
 >**Brief** Scilab Power Electronics ToolBox
 
 > Module uses Scilab
