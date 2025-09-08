@@ -6,6 +6,11 @@ See license.txt
 changelog of the SciPowerLab Toolbox
 ErturkMe - Power Electronics and Electrical Machines
 
+SciPowerLab (0.5)
+    * Fix compatibility with Scilab 2025.1.0
+    * Update C header includes from scicos_block4.h to scicos_block.h
+ -- Ibrahim ERTURK <me@erturk.me> Sun, 08 Sep 2024
+
 SciPowerLab (0.4)
     * Update blocks to comply Scilab 2023 API
  -- Ibrahim ERTURK <me@erturk.me> Sat, 27 Apr 2024
